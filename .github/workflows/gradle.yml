@@ -32,12 +32,12 @@ jobs:
         uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
         with:
           arguments: build
-      - name: Deploy to Heroku
-          uses: akhileshns/heroku-deploy@v3.12.12
-          with:
-          #your heroku homepage account settings
-          heroku_api_key: ced80944-f47e-4183-857c-c3201adfab30
-          # Email that you use with heroku
-          heroku_email: navya.nucchu@gmail.com
-          # The appname to use for deploying/updating
-          heroku_app_name: book-store-app93
+#      - name: Deploy to Heroku
+#          uses: akhileshns/heroku-deploy@v3.12.12
+#          with:
+#          #your heroku homepage account settings
+#          heroku_api_key: ced80944-f47e-4183-857c-c3201adfab30
+#          # Email that you use with heroku
+#          heroku_email: navya.nucchu@gmail.com
+#          # The appname to use for deploying/updating
+#          heroku_app_name: book-store-app93
