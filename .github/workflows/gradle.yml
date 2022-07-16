@@ -41,5 +41,3 @@ jobs:
           heroku_email: navya.nucchu@gmail.com
           # The appname to use for deploying/updating
           heroku_app_name: book-store-app93
-          server:
-            port: 8080
