@@ -10,6 +10,7 @@ jobs:
         with:
           java-version: 8
           distribution: 'adopt'
+          cache: gradle
       - name: Build With Gradle
         run: ./gradelw build
 
