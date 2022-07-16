@@ -33,7 +33,7 @@ jobs:
         with:
           arguments: build
       - name: Deploy to Heroku
-          uses: AkhileshNS/heroku-deploy@v3.12.12
+          uses: NavyaN/heroku-deploy@v3.12.12
           with:
           #your heroku homepage account settings
           heroku_api_key: ced80944-f47e-4183-857c-c3201adfab30
