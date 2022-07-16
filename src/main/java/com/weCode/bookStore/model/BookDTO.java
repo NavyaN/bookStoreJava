@@ -13,4 +13,5 @@ public class BookDTO {
 
     private String title;
     private String description;
+    private int pages;
 }
