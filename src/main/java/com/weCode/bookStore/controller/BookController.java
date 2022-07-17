@@ -1,7 +1,6 @@
 package com.weCode.bookStore.controller;
 
-import com.weCode.bookStore.model.BookDTO;
-import org.springframework.http.HttpEntity;
+import com.weCode.bookStore.DataTransferObject.BookDTO;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package com.weCode.bookStore.model;
+package com.weCode.bookStore.DataTransferObject;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
