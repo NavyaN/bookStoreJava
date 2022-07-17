@@ -27,5 +27,4 @@ public class BookControllerTests {
       BookDTO[] books =  testRestTemplate.getForObject("http://localhost:"+port+"/api/v1/books", BookDTO[].class);
         Assertions.assertEquals(2, books.length);
     }
-
 }
