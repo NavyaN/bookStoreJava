@@ -1,16 +1,24 @@
 package com.weCode.bookStore.model;
 
 import com.sun.istack.NotNull;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.UUID;
 
 @Entity
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Book {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO, generator = "UUID")
-    private UUID id;
+    @NotNull
+    private int id;
 
     @Column
     @NotNull
@@ -18,10 +26,14 @@ public class Book {
 
     @Column
     @NotNull
-    private String description;
+    private String descp;
 
     @Column
     @NotNull
-    private int releaseYear;
+    private int release_year;
+
+    @Column
+    @NotNull
+    private int pagecount;
 
 }

@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.UUID;
+
 @Data // getter & setter
 @Builder // for creating object
 @AllArgsConstructor
@@ -13,5 +15,6 @@ public class BookDTO {
 
     private String title;
     private String description;
-    private int pages;
+    private int id;
+    private int releaseYear;
 }
